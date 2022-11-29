@@ -1,0 +1,71 @@
+
+/* Navigation bar */
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+.navbar-nav {
+    margin-left: 470px;
+    margin-right: 0 !important;
+
+  }
+  .navbar-brand img {
+    padding-right: 10px;
+    padding-left: 3px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  .customNav a:hover {
+    color: black !important;
+  }
+
+  /* My Team */
+
+  .sectionTeam {
+    padding: 30px;
+  }
+  .flexTeam {
+    display: flex;
+    padding: 40px 40px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+  }
+  .flexTeam div {
+    width: 33%;
+    padding: 25px;
+    margin: 10px;
+    width: 500px;
+    padding: 10px;
+    align-items: center;
+    color: black;
+  }
+
+/* Define */
+.definitionSection {
+    background-color: aliceblue;
+}
+
+/* Research */
+/* Ideation */
+/* Prototype */
+.bd-example {
+    padding: 100px;
+    width: 900px;
+}
+#carouselExampleCaptions h5, p {
+    color: black;
+    font-size: small;
+}
+
+
+/* Testing */
+/* Final Design */
